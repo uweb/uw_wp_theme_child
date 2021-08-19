@@ -20,7 +20,7 @@ To get started using this theme, all you have to do is install it and the UW Wor
 
 7. Go back to `Appearance > Themes` and click the **Add New** button.
 
-8. Click the **Uplaod Theme** button.
+8. Click the **Upload Theme** button.
 
 9.  Drag and drop the UW WordPress Child Theme zip file to the file upload area and click the **Install Now** button.
 
