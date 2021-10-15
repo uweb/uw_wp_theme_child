@@ -6,7 +6,7 @@ A child theme for use with the [UW WordPress Theme](https://github.com/uweb/uw_w
 
 To get started using this theme, all you have to do is install it and the UW WordPress Theme on your WordPress website. Make sure you activate this child theme.
 
-1. Download zip files for both the [UW WordPress Theme](https://github.com/uweb/uw_wp_theme) and this child theme.
+1. Download zip files for both the [UW WordPress Theme](https://github.com/uweb/uw_wp_theme) and this child theme. **_Please note: You may need to update the name of the zip file. If it includes -master in the file name (e.g. uw_wp_theme-master.zip), you will need to REMOVE the -master part. The file name you upload to WordPress in the next step needs to be uw_wp_theme.zip._**
 
 2. Log into your WordPress admin.
 
