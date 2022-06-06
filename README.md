@@ -32,6 +32,35 @@ All of the settings, shortcodes, widgets, and templates from the parent theme ar
 
 **_Override with caution._** If you stray too far from the original theme, it will make updating the parent theme difficult to impossible without also updating your child theme code.
 
+## Developer tools
+
+Included are a few tools that can get you started for advanced coding with the theme. Includes
+- [Gulp](https://gulpjs.com/)
+- [SCSS](https://sass-lang.com/) css processor
+- [BrowserSync](https://browsersync.io/) for testing and local development
+
+### Requirements for dev tools:
+- [NodeJS](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) installed before you start
+- A command line/terminal tool
+- (Optional) [Local](https://localwp.com/) installed and running for use with BrowserSync.
+
+### Setting up dev tools
+
+1. Copy all the files out of the /dev/ folder and into the main uw_wp_theme_child folder. (delete the /dev/ folder when you're done.)
+
+2. Open uw_wp_child_theme in your terminal application.
+
+3. Install the node packages using npm.
+```
+npm install
+```
+
+4. Open `gulpfile.babel.js` and edit line 20 `http://your-site.local` to match your [Local](https://localwp.com/) development site URL.
+
+5. Run `gulp` in the command line to start building your files.
+
+Once you've done those steps you can start using Gulp to create stylesheets. [Gulp can also be expanded to run other tasks for the theme](https://www.toptal.com/javascript/optimize-js-and-css-with-gulp).
+
 ## Guidance for using this child theme
 
 1. Follow [Child Theme](https://developer.wordpress.org/themes/advanced-topics/child-themes/) best practices from WordPress
