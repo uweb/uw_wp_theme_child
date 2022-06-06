@@ -17,7 +17,7 @@ function reload(done) {
 
 function serve(done) {
 	server.init({
-		proxy: 'https://uw-multisite.local/social/',
+		proxy: 'https://your-site.local/',
 		port: '8181'
 	});
 	done();
