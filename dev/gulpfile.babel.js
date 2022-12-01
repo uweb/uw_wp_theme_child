@@ -2,10 +2,10 @@ import gulp from 'gulp';
 import autoprefixer from 'autoprefixer';
 import browserSync from 'browser-sync';
 import concat from 'gulp-concat';
-import cssnano from 'gulp-cssnano';
+import cssnano from 'cssnano';
 import postcss from 'gulp-postcss';
 import print from 'gulp-print';
-import sass from 'gulp-sass';
+import sass from 'gulp-dart-sass';
 
 // Initialize Browser Sync
 const server = browserSync.create();
@@ -30,7 +30,7 @@ export function publicStyles() {
 	return gulp.src('*.scss')
 		.pipe(print())
 		.pipe(sass({
-			outputStyle: 'compresed',
+			outputStyle: 'compressed',
 			precision: 3,
 			errLogToConsole: true
 		}).on('error', sass.logError))

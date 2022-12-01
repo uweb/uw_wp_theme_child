@@ -40,7 +40,7 @@ Included are a few tools that can get you started for advanced coding with the t
 - [BrowserSync](https://browsersync.io/) for testing and local development
 
 ### Requirements for dev tools:
-- [NodeJS](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) installed before you start
+- [NodeJS](https://nodejs.org/en/) and [NPM](https://www.npmjs.com/) installed before you start. We recommend using the latest versions or [any stable supported version](https://github.com/nodejs/Release#nodejs-release-working-group).
 - A command line/terminal tool
 - (Optional) [Local](https://localwp.com/) installed and running for use with BrowserSync.
 
@@ -48,16 +48,18 @@ Included are a few tools that can get you started for advanced coding with the t
 
 1. Copy all the files out of the /dev/ folder and into the main uw_wp_theme_child folder. (delete the /dev/ folder when you're done.)
 
-2. Open uw_wp_child_theme in your terminal application.
+2. Update the style.scss file with your desired theme information.
 
-3. Install the node packages using npm.
+3. Open uw_wp_child_theme in your terminal application.
+
+4. Install the node packages using npm.
 ```
 npm install
 ```
 
-4. Open `gulpfile.babel.js` and edit line 20 `http://your-site.local` to match your [Local](https://localwp.com/) development site URL.
+5. Open `gulpfile.babel.js` and edit line 20 `http://your-site.local` to match your [Local](https://localwp.com/) development site URL.
 
-5. Run `gulp` in the command line to start building your files.
+6. Run `gulp` in the command line to start building your files.
 
 Once you've done those steps you can start using Gulp to create stylesheets. [Gulp can also be expanded to run other tasks for the theme](https://www.toptal.com/javascript/optimize-js-and-css-with-gulp).
 
