@@ -1,0 +1,47 @@
+{
+  "name": "uw_wp_theme_child",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "build": "gulp",
+    "watch": "gulp watch"
+  },
+  "keywords": [],
+  "author": "Your Department",
+  "license": "ISC",
+  "browserslist": [
+    "last 2 versions",
+    "> 2%"
+  ],
+  "devDependencies": {
+    "@babel/core": "^7.13.8",
+    "@babel/preset-env": "^7.13.8",
+    "@babel/register": "^7.13.8",
+    "autoprefixer": "^10.3.1",
+    "browser-sync": "^2.27.10",
+    "cssnano": "^5.1.14",
+    "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
+    "gulp-dart-sass": "^1.0.2",
+    "gulp-postcss": "^9.0.0",
+    "gulp-print": "^5.0.2",
+    "postcss": "^8.4.19"
+  },
+  "babel": {
+    "presets": [
+      "@babel/preset-env"
+    ]
+  },
+  "eslintConfig": {
+    "parserOptions": {
+      "sourceType": "module"
+    },
+    "root": true,
+    "env": {
+      "browser": true,
+      "node": true,
+      "es6": true
+    }
+  },
+  "description": ""
+}
